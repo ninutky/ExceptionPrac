@@ -33,6 +33,10 @@ namespace ExceptionPrac
                 Console.WriteLine(ex.Message);
                 Console.WriteLine(ex.StackTrace);
             }
+            finally
+            {
+                Console.WriteLine("오류 여부와 상관없이 실행됨");
+            }
             
         }
     }
